@@ -1,9 +1,9 @@
 ﻿#include "snake.h"
 #include <cassert>
 
-Snake::Snake(const sf::Vector2i& head_position)
+Snake::Snake()
 {
-    Create(head_position);
+    //Create(head_position);
 }
 
 //virtual ~Snake() = default

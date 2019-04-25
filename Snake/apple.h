@@ -5,7 +5,7 @@
 class Apple
 {
 public:
-    explicit Apple(const sf::Vector2i& new_position);
+    Apple() = default;
     virtual~Apple() = default;
 
     void Create(const sf::Vector2i& new_position);

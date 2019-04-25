@@ -22,7 +22,7 @@ public:
     };
 
 public:
-    explicit Snake(const sf::Vector2i& head_position);
+    Snake() = default;
     virtual ~Snake() = default;
 
     void Create(const sf::Vector2i& head_position);

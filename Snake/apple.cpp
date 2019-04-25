@@ -1,8 +1,8 @@
 ﻿#include "apple.h"
 
-Apple::Apple(const sf::Vector2i& new_position)
+Apple::Apple()
 {
-    Create(new_position);
+    //Create(new_position);
 }
 
 void Apple::Create(const sf::Vector2i& new_position)
